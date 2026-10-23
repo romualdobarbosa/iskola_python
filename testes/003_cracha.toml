@@ -1,0 +1,41 @@
+titulo = "Crachá"
+modo = "stdio"
+
+[[casos]]
+entrada = """
+Ana
+Silva
+07
+03
+1994
+"""
+saida = """
+Silva, Ana
+07/03/1994
+"""
+
+[[casos]]
+entrada = """
+Maria Clara
+Souza Lima
+25
+12
+2001
+"""
+saida = """
+Souza Lima, Maria Clara
+25/12/2001
+"""
+
+[[casos]]
+entrada = """
+José
+da Silva
+01
+01
+1970
+"""
+saida = """
+da Silva, José
+01/01/1970
+"""

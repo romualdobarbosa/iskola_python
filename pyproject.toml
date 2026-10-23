@@ -1,0 +1,39 @@
+[project]
+name = "iskola-python"
+version = "0.1.0"
+description = "Drills de Python com feedback colorido no terminal."
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "Romualdo Barbosa" }]
+requires-python = ">=3.13"
+dependencies = [
+    "rich>=15.0.0",
+]
+
+[project.scripts]
+iskola = "iskola.cli:main"
+
+[build-system]
+requires = ["uv_build>=0.11,<0.12"]
+build-backend = "uv_build"
+
+[tool.uv.build-backend]
+module-root = ""
+module-name = "iskola"
+
+[tool.ruff]
+extend-exclude = ["treino"]
+
+[tool.ruff.format]
+# Os templates são lidos pelo aluno do jeito que estão escritos, inclusive a linha mágica.
+exclude = ["problemas/*"]
+
+[tool.ruff.lint.per-file-ignores]
+"problemas/*" = ["E702", "I001"]
+
+[dependency-groups]
+dev = [
+    "pre-commit>=4.7.0",
+    "ruff>=0.17.2",
+]

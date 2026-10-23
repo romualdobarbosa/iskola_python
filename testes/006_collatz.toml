@@ -1,0 +1,34 @@
+titulo = "Collatz"
+modo = "stdio"
+
+[[casos]]
+entrada = """
+1
+"""
+saida = """
+0
+"""
+
+[[casos]]
+entrada = """
+6
+"""
+saida = """
+8
+"""
+
+[[casos]]
+entrada = """
+7
+"""
+saida = """
+16
+"""
+
+[[casos]]
+entrada = """
+27
+"""
+saida = """
+111
+"""

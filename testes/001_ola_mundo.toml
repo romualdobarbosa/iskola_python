@@ -1,0 +1,7 @@
+titulo = "Olá, mundo"
+modo = "stdio"
+
+[[casos]]
+saida = """
+Olá, mundo!
+"""

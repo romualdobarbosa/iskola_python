@@ -1,0 +1,48 @@
+titulo = "Contagem regressiva"
+modo = "stdio"
+
+[[casos]]
+entrada = """
+3
+"""
+saida = """
+3
+2
+1
+Decolar!
+"""
+
+[[casos]]
+entrada = """
+1
+"""
+saida = """
+1
+Decolar!
+"""
+
+[[casos]]
+entrada = """
+0
+"""
+saida = """
+Decolar!
+"""
+
+[[casos]]
+entrada = """
+10
+"""
+saida = """
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+Decolar!
+"""

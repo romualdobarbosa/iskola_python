@@ -1,0 +1,74 @@
+titulo = "Voto"
+modo = "stdio"
+
+[[casos]]
+entrada = """
+0
+"""
+saida = """
+não vota
+"""
+
+[[casos]]
+entrada = """
+15
+"""
+saida = """
+não vota
+"""
+
+[[casos]]
+entrada = """
+16
+"""
+saida = """
+facultativo
+"""
+
+[[casos]]
+entrada = """
+17
+"""
+saida = """
+facultativo
+"""
+
+[[casos]]
+entrada = """
+18
+"""
+saida = """
+obrigatório
+"""
+
+[[casos]]
+entrada = """
+45
+"""
+saida = """
+obrigatório
+"""
+
+[[casos]]
+entrada = """
+69
+"""
+saida = """
+obrigatório
+"""
+
+[[casos]]
+entrada = """
+70
+"""
+saida = """
+facultativo
+"""
+
+[[casos]]
+entrada = """
+92
+"""
+saida = """
+facultativo
+"""

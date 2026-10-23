@@ -1,0 +1,34 @@
+titulo = "Lendo a entrada"
+modo = "stdio"
+
+[[casos]]
+entrada = """
+Ana
+"""
+saida = """
+Olá, Ana!
+"""
+
+[[casos]]
+entrada = """
+Maria Clara
+"""
+saida = """
+Olá, Maria Clara!
+"""
+
+[[casos]]
+entrada = """
+Zé
+"""
+saida = """
+Olá, Zé!
+"""
+
+[[casos]]
+entrada = """
+Bartolomeu
+"""
+saida = """
+Olá, Bartolomeu!
+"""
