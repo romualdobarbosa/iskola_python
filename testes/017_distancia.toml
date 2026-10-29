@@ -1,0 +1,72 @@
+titulo = "Ponto de ônibus"
+modo = "stdio"
+
+[[casos]]
+entrada = """
+0 0
+3 4
+"""
+saida = """
+distância: 5.00
+metros inteiros: 5
+"""
+
+[[casos]]
+entrada = """
+2 3
+2 3
+"""
+saida = """
+distância: 0.00
+metros inteiros: 0
+"""
+
+[[casos]]
+entrada = """
+1 1
+2 2
+"""
+saida = """
+distância: 1.41
+metros inteiros: 1
+"""
+
+[[casos]]
+entrada = """
+-5 10
+7 -6
+"""
+saida = """
+distância: 20.00
+metros inteiros: 20
+"""
+
+[[casos]]
+entrada = """
+100 200
+-300 50
+"""
+saida = """
+distância: 427.20
+metros inteiros: 427
+"""
+
+[[casos]]
+entrada = """
+0 0
+0 -9
+"""
+saida = """
+distância: 9.00
+metros inteiros: 9
+"""
+
+[[casos]]
+entrada = """
+0 0
+800000000 40000
+"""
+saida = """
+distância: 800000001.00
+metros inteiros: 800000000
+"""

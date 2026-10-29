@@ -1,0 +1,65 @@
+titulo = "Pacotes de figurinhas"
+modo = "stdio"
+
+[[casos]]
+entrada = """
+17 5
+"""
+saida = """
+pacotes: 3
+soltas: 2
+"""
+
+[[casos]]
+entrada = """
+20 5
+"""
+saida = """
+pacotes: 4
+soltas: 0
+"""
+
+[[casos]]
+entrada = """
+3 5
+"""
+saida = """
+pacotes: 0
+soltas: 3
+"""
+
+[[casos]]
+entrada = """
+0 4
+"""
+saida = """
+pacotes: 0
+soltas: 0
+"""
+
+[[casos]]
+entrada = """
+1000 7
+"""
+saida = """
+pacotes: 142
+soltas: 6
+"""
+
+[[casos]]
+entrada = """
+7 1
+"""
+saida = """
+pacotes: 7
+soltas: 0
+"""
+
+[[casos]]
+entrada = """
+123456 100
+"""
+saida = """
+pacotes: 1234
+soltas: 56
+"""

@@ -1,0 +1,90 @@
+titulo = "Painel binário"
+modo = "stdio"
+
+[[casos]]
+entrada = """
+2 1011
+"""
+saida = """
+decimal: 11
+binário: 00001011
+octal: 13
+hexadecimal: 0B
+"""
+
+[[casos]]
+entrada = """
+10 255
+"""
+saida = """
+decimal: 255
+binário: 11111111
+octal: 377
+hexadecimal: FF
+"""
+
+[[casos]]
+entrada = """
+16 ff
+"""
+saida = """
+decimal: 255
+binário: 11111111
+octal: 377
+hexadecimal: FF
+"""
+
+[[casos]]
+entrada = """
+16 A0
+"""
+saida = """
+decimal: 160
+binário: 10100000
+octal: 240
+hexadecimal: A0
+"""
+
+[[casos]]
+entrada = """
+8 17
+"""
+saida = """
+decimal: 15
+binário: 00001111
+octal: 17
+hexadecimal: 0F
+"""
+
+[[casos]]
+entrada = """
+10 0
+"""
+saida = """
+decimal: 0
+binário: 00000000
+octal: 0
+hexadecimal: 00
+"""
+
+[[casos]]
+entrada = """
+2 10000000
+"""
+saida = """
+decimal: 128
+binário: 10000000
+octal: 200
+hexadecimal: 80
+"""
+
+[[casos]]
+entrada = """
+16 7
+"""
+saida = """
+decimal: 7
+binário: 00000111
+octal: 7
+hexadecimal: 07
+"""

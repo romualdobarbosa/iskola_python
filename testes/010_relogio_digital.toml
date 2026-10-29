@@ -1,0 +1,66 @@
+titulo = "Relógio digital"
+modo = "stdio"
+
+[[casos]]
+entrada = """
+3661
+"""
+saida = """
+01:01:01
+"""
+
+[[casos]]
+entrada = """
+0
+"""
+saida = """
+00:00:00
+"""
+
+[[casos]]
+entrada = """
+59
+"""
+saida = """
+00:00:59
+"""
+
+[[casos]]
+entrada = """
+60
+"""
+saida = """
+00:01:00
+"""
+
+[[casos]]
+entrada = """
+45296
+"""
+saida = """
+12:34:56
+"""
+
+[[casos]]
+entrada = """
+86399
+"""
+saida = """
+23:59:59
+"""
+
+[[casos]]
+entrada = """
+86400
+"""
+saida = """
+24:00:00
+"""
+
+[[casos]]
+entrada = """
+359999
+"""
+saida = """
+99:59:59
+"""

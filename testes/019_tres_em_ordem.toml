@@ -1,0 +1,74 @@
+titulo = "Três em ordem"
+modo = "stdio"
+
+[[casos]]
+entrada = """
+7 3 5
+"""
+saida = """
+3 5 7
+fora de ordem
+"""
+
+[[casos]]
+entrada = """
+1 2 3
+"""
+saida = """
+1 2 3
+já estava em ordem
+"""
+
+[[casos]]
+entrada = """
+3 2 1
+"""
+saida = """
+1 2 3
+fora de ordem
+"""
+
+[[casos]]
+entrada = """
+4 4 4
+"""
+saida = """
+4 4 4
+já estava em ordem
+"""
+
+[[casos]]
+entrada = """
+5 5 2
+"""
+saida = """
+2 5 5
+fora de ordem
+"""
+
+[[casos]]
+entrada = """
+2 9 9
+"""
+saida = """
+2 9 9
+já estava em ordem
+"""
+
+[[casos]]
+entrada = """
+-1 0 -5
+"""
+saida = """
+-5 -1 0
+fora de ordem
+"""
+
+[[casos]]
+entrada = """
+10 30 20
+"""
+saida = """
+10 20 30
+fora de ordem
+"""

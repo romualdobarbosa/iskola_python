@@ -1,0 +1,62 @@
+titulo = "Censo"
+modo = "stdio"
+
+[[casos]]
+entrada = """
+Vila Esperança
+48213
+312.40
+"""
+saida = """
+Vila Esperança
+população: 48.213
+densidade: 154,33 hab/km²
+"""
+
+[[casos]]
+entrada = """
+Pedra Branca do Norte
+1234567
+845.12
+"""
+saida = """
+Pedra Branca do Norte
+população: 1.234.567
+densidade: 1.460,82 hab/km²
+"""
+
+[[casos]]
+entrada = """
+Ilhota
+950
+2.50
+"""
+saida = """
+Ilhota
+população: 950
+densidade: 380,00 hab/km²
+"""
+
+[[casos]]
+entrada = """
+Nova Aurora
+12500000
+1500.00
+"""
+saida = """
+Nova Aurora
+população: 12.500.000
+densidade: 8.333,33 hab/km²
+"""
+
+[[casos]]
+entrada = """
+Serra Alta
+1000
+1000.00
+"""
+saida = """
+Serra Alta
+população: 1.000
+densidade: 1,00 hab/km²
+"""

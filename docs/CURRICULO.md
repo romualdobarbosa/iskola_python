@@ -29,7 +29,7 @@ Rascunho em revisão. Os títulos e slugs viram os nomes de arquivo (`NNN_slug`)
 | 014 | bissexto | Ano bissexto | `and`/`or`/`not` como expressão, precedência | `%` (009) |
 | 015 | bases | Painel binário | `int(s, base)`, `bin`, `hex`, formatos `b`/`o`/`x` | format spec (010) |
 | 016 | quantos_positivos | Quantos positivos | `bool` é `int` (`True + True`), comparação encadeada | expressão booleana (014) |
-| 017 | distancia | Ponto de ônibus | `import math`, `sqrt`, `hypot` | formatação de float (013) |
+| 017 | distancia | Ponto de ônibus | `import math`, `sqrt`, `hypot`, `isqrt` | formatação de float (013) |
 | 018 | excursao | Ônibus da excursão | `math.ceil` e divisão pra cima com inteiros | `math` (017), `//` (009) |
 | 019 | tres_em_ordem | Três em ordem | troca `a, b = b, a`, `min`, `max` | comparações (016) |
 | 020 | recibo | Recibo | largura e alinhamento na f-string (`:<10`, `:>8`) | `for` (005), `split` (008) |

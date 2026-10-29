@@ -1,0 +1,66 @@
+titulo = "Plantão"
+modo = "stdio"
+
+[[casos]]
+entrada = """
+22 5
+"""
+saida = """
+03h
+"""
+
+[[casos]]
+entrada = """
+10 0
+"""
+saida = """
+10h
+"""
+
+[[casos]]
+entrada = """
+3 -5
+"""
+saida = """
+22h
+"""
+
+[[casos]]
+entrada = """
+0 -1
+"""
+saida = """
+23h
+"""
+
+[[casos]]
+entrada = """
+23 1
+"""
+saida = """
+00h
+"""
+
+[[casos]]
+entrada = """
+15 48
+"""
+saida = """
+15h
+"""
+
+[[casos]]
+entrada = """
+1 -50
+"""
+saida = """
+23h
+"""
+
+[[casos]]
+entrada = """
+12 1000
+"""
+saida = """
+04h
+"""

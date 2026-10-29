@@ -1,0 +1,74 @@
+titulo = "Grãos no tabuleiro"
+modo = "stdio"
+
+[[casos]]
+entrada = """
+3
+"""
+saida = """
+casa: 4
+total: 7
+"""
+
+[[casos]]
+entrada = """
+1
+"""
+saida = """
+casa: 1
+total: 1
+"""
+
+[[casos]]
+entrada = """
+2
+"""
+saida = """
+casa: 2
+total: 3
+"""
+
+[[casos]]
+entrada = """
+10
+"""
+saida = """
+casa: 512
+total: 1023
+"""
+
+[[casos]]
+entrada = """
+32
+"""
+saida = """
+casa: 2147483648
+total: 4294967295
+"""
+
+[[casos]]
+entrada = """
+64
+"""
+saida = """
+casa: 9223372036854775808
+total: 18446744073709551615
+"""
+
+[[casos]]
+entrada = """
+65
+"""
+saida = """
+casa: 18446744073709551616
+total: 36893488147419103231
+"""
+
+[[casos]]
+entrada = """
+200
+"""
+saida = """
+casa: 803469022129495137770981046170581301261101496891396417650688
+total: 1606938044258990275541962092341162602522202993782792835301375
+"""

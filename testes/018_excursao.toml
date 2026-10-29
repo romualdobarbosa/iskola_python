@@ -1,0 +1,74 @@
+titulo = "Ônibus da excursão"
+modo = "stdio"
+
+[[casos]]
+entrada = """
+45 44
+"""
+saida = """
+ônibus: 2
+lugares vazios: 43
+"""
+
+[[casos]]
+entrada = """
+40 44
+"""
+saida = """
+ônibus: 1
+lugares vazios: 4
+"""
+
+[[casos]]
+entrada = """
+88 44
+"""
+saida = """
+ônibus: 2
+lugares vazios: 0
+"""
+
+[[casos]]
+entrada = """
+1 50
+"""
+saida = """
+ônibus: 1
+lugares vazios: 49
+"""
+
+[[casos]]
+entrada = """
+1000 15
+"""
+saida = """
+ônibus: 67
+lugares vazios: 5
+"""
+
+[[casos]]
+entrada = """
+60 60
+"""
+saida = """
+ônibus: 1
+lugares vazios: 0
+"""
+
+[[casos]]
+entrada = """
+100000000000000001 1
+"""
+saida = """
+ônibus: 100000000000000001
+lugares vazios: 0
+"""
+
+[[casos]]
+entrada = """
+999999999999999999 1000
+"""
+saida = """
+ônibus: 1000000000000000
+lugares vazios: 1
+"""

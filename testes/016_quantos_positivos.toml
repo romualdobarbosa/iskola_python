@@ -1,0 +1,56 @@
+titulo = "Quantos positivos"
+modo = "stdio"
+
+[[casos]]
+entrada = """
+5 -3 0 12
+"""
+saida = """
+positivos: 2
+dois dígitos: 1
+"""
+
+[[casos]]
+entrada = """
+0 0 0 0
+"""
+saida = """
+positivos: 0
+dois dígitos: 0
+"""
+
+[[casos]]
+entrada = """
+10 99 100 9
+"""
+saida = """
+positivos: 4
+dois dígitos: 2
+"""
+
+[[casos]]
+entrada = """
+-15 -10 -99 -1
+"""
+saida = """
+positivos: 0
+dois dígitos: 0
+"""
+
+[[casos]]
+entrada = """
+1 2 3 4
+"""
+saida = """
+positivos: 4
+dois dígitos: 0
+"""
+
+[[casos]]
+entrada = """
+50 50 -50 -50
+"""
+saida = """
+positivos: 2
+dois dígitos: 2
+"""

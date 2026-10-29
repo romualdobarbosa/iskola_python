@@ -1,0 +1,74 @@
+titulo = "Conta do restaurante"
+modo = "stdio"
+
+[[casos]]
+entrada = """
+12.00 45.90 18.50
+"""
+saida = """
+Total: 76.40
+Arredondado: 76
+"""
+
+[[casos]]
+entrada = """
+2.50 8.00 2.00
+"""
+saida = """
+Total: 12.50
+Arredondado: 13
+"""
+
+[[casos]]
+entrada = """
+10.00 20.00 30.00
+"""
+saida = """
+Total: 60.00
+Arredondado: 60
+"""
+
+[[casos]]
+entrada = """
+0.10 0.20 0.30
+"""
+saida = """
+Total: 0.60
+Arredondado: 1
+"""
+
+[[casos]]
+entrada = """
+15.25 30.00 7.24
+"""
+saida = """
+Total: 52.49
+Arredondado: 52
+"""
+
+[[casos]]
+entrada = """
+33.66 79.57 14.27
+"""
+saida = """
+Total: 127.50
+Arredondado: 128
+"""
+
+[[casos]]
+entrada = """
+36.66 67.32 9.52
+"""
+saida = """
+Total: 113.50
+Arredondado: 114
+"""
+
+[[casos]]
+entrada = """
+4.50 4.50 4.50
+"""
+saida = """
+Total: 13.50
+Arredondado: 14
+"""

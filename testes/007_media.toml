@@ -1,0 +1,74 @@
+titulo = "Média de duas notas"
+modo = "stdio"
+
+[[casos]]
+entrada = """
+7.5
+8
+"""
+saida = """
+Média: 7.75
+"""
+
+[[casos]]
+entrada = """
+10
+10
+"""
+saida = """
+Média: 10.00
+"""
+
+[[casos]]
+entrada = """
+0
+0
+"""
+saida = """
+Média: 0.00
+"""
+
+[[casos]]
+entrada = """
+6.3
+4.8
+"""
+saida = """
+Média: 5.55
+"""
+
+[[casos]]
+entrada = """
+9.9
+0.1
+"""
+saida = """
+Média: 5.00
+"""
+
+[[casos]]
+entrada = """
+5
+6
+"""
+saida = """
+Média: 5.50
+"""
+
+[[casos]]
+entrada = """
+7.3
+8.2
+"""
+saida = """
+Média: 7.75
+"""
+
+[[casos]]
+entrada = """
+5.1
+7.3
+"""
+saida = """
+Média: 6.20
+"""

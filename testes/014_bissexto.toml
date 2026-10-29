@@ -1,0 +1,82 @@
+titulo = "Ano bissexto"
+modo = "stdio"
+
+[[casos]]
+entrada = """
+2024
+"""
+saida = """
+bissexto
+"""
+
+[[casos]]
+entrada = """
+2023
+"""
+saida = """
+comum
+"""
+
+[[casos]]
+entrada = """
+1900
+"""
+saida = """
+comum
+"""
+
+[[casos]]
+entrada = """
+2000
+"""
+saida = """
+bissexto
+"""
+
+[[casos]]
+entrada = """
+2100
+"""
+saida = """
+comum
+"""
+
+[[casos]]
+entrada = """
+1600
+"""
+saida = """
+bissexto
+"""
+
+[[casos]]
+entrada = """
+1996
+"""
+saida = """
+bissexto
+"""
+
+[[casos]]
+entrada = """
+4
+"""
+saida = """
+bissexto
+"""
+
+[[casos]]
+entrada = """
+1
+"""
+saida = """
+comum
+"""
+
+[[casos]]
+entrada = """
+2400
+"""
+saida = """
+bissexto
+"""

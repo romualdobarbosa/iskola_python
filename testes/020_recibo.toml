@@ -1,0 +1,50 @@
+titulo = "Recibo"
+modo = "stdio"
+
+[[casos]]
+entrada = """
+3
+pão 6 0.75
+leite 2 4.99
+café 1 18.90
+"""
+saida = """
+pão            6      4.50
+leite          2      9.98
+café           1     18.90
+"""
+
+[[casos]]
+entrada = """
+1
+melancia 1 12.00
+"""
+saida = """
+melancia       1     12.00
+"""
+
+[[casos]]
+entrada = """
+4
+banana 12 0.45
+queijo 1 39.90
+azeite 2 34.50
+chiclete 100 0.25
+"""
+saida = """
+banana        12      5.40
+queijo         1     39.90
+azeite         2     69.00
+chiclete     100     25.00
+"""
+
+[[casos]]
+entrada = """
+2
+arroz 3 27.99
+feijão 10 8.49
+"""
+saida = """
+arroz          3     83.97
+feijão        10     84.90
+"""
