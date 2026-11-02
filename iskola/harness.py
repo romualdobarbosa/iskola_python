@@ -3,6 +3,7 @@
 from pathlib import Path
 
 from rich.console import Console
+from rich.panel import Panel
 
 from iskola import catalogo, mensagens, relatorio
 from iskola.catalogo import Problema, ProblemaNaoEncontrado, RaizNaoEncontrada
@@ -37,9 +38,9 @@ def corrigir(arquivo: str) -> int:
     passou = next(falhas(resultados), None) is None
 
     if caminho.parent != problema.raiz / "treino":
-        if caminho.parent == problema.raiz / "problemas":
-            console.print(mensagens.AVISO_TEMPLATE, style="yellow")
         _mostrar(problema, resultados, passou, None, console)
+        if caminho.parent == problema.raiz / "problemas":
+            _avisar_template(problema, console)
         return 0 if passou else 1
 
     progresso = Progresso(problema.raiz)
@@ -50,6 +51,20 @@ def corrigir(arquivo: str) -> int:
     if passou and fase_antes < fase.tamanho == _aceitos_na_fase(problema, progresso):
         relatorio.fase_concluida(fase, console)
     return 0 if passou else 1
+
+
+def _avisar_template(problema: Problema, console: Console) -> None:
+    """Fecha a saída com o aviso, pra ele ser a última coisa na tela."""
+    texto = mensagens.AVISO_TEMPLATE.format(arquivo=f"{problema.nome}.py")
+    console.print()
+    console.print(
+        Panel(
+            texto,
+            title=mensagens.AVISO_TEMPLATE_TITULO,
+            title_align="left",
+            border_style="bold yellow",
+        )
+    )
 
 
 def _mostrar(

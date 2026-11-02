@@ -84,7 +84,13 @@ FIM_DOS_PROBLEMAS = "Você passou em todos os problemas que existem até agora."
 FASE_CONCLUIDA = "Você fechou a fase {nome}"
 FASE_CONCLUIDA_DETALHE = "{total} de {total} problemas aceitos."
 
-AVISO_TEMPLATE = "Você está rodando o template original. O seu progresso só conta nos arquivos de treino/."
+AVISO_TEMPLATE_TITULO = "⚠ Arquivo errado"
+AVISO_TEMPLATE = (
+    "Esse é o template em problemas/, não o seu arquivo de treino.\n"
+    "Esse resultado não conta no progresso.\n\n"
+    "Rode [bold]uv run iskola[/bold] (ele cria o treino/ que faltar) e trabalhe em:\n"
+    "  [bold]uv run treino/{arquivo}[/bold]"
+)
 SEM_RAIZ = "Não achei as pastas problemas/ e testes/ a partir de {pasta}."
 SEM_TESTES = "Não achei os testes de {arquivo}. O nome começa com o número do problema?"
 MODO_NAO_SUPORTADO = "O modo '{modo}' ainda não existe no corretor."
